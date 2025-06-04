@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JisnuSports | Member Verification</title>
+  <script src="members.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      animation: fadeIn 0.6s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-white to-blue-200 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 rounded-xl shadow-lg w-full max-w-lg text-center border border-gray-200">
+    <h1 class="text-2xl font-bold text-blue-700 mb-4">Verify Premium Membership</h1>
+    
+    <input id="memberId" type="text" placeholder="Enter Member ID (e.g. JS-2506-0001)"
+      class="w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:outline-none mb-4"/>
+
+    <button onclick="verifyMember()" 
+      class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 w-full mb-6">
+      Verify Member
+    </button>
+
+    <div id="result" class="hidden fade-in bg-gray-50 border rounded-lg p-4 text-left shadow-sm"></div>
+
+    <a href="https://sachinjha1822.github.io/JisnuSportsNew/" target="_blank"
+      class="mt-6 inline-block text-blue-600 hover:text-blue-800 underline font-semibold">
+      🔗 Go to JisnuSports Website
+    </a>
+  </div>
+</body>
+</html>
