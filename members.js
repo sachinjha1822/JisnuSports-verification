@@ -3,7 +3,7 @@ const members = {
     name: "Sachin Jha",
     status: "Active",
     photo: "member-1.jpg",
-    joinDate: "01-Dec-2024"
+    joinDate: "12-Dec-2024"
   },
   "JS-2506-0002": {
     name: "Ayush chaudhary",
@@ -12,10 +12,10 @@ const members = {
     joinDate: "01-Dec-2024"
   },
   "JS-2506-0003": {
-    name: "Anjali Sharma",
-    status: "Inactive",
-    photo: "https://via.placeholder.com/100",
-    joinDate: "05-Jan-2024"
+    name: "Sudhir Kumar Rana",
+    status: "Active",
+    photo: "member-3.jpg",
+    joinDate: "14-Dec-2024"
   }
 };
 
