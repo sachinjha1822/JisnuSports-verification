@@ -3,19 +3,19 @@ const members = {
     name: "Sachin Jha",
     status: "Active",
     photo: "member-1.jpg",
-    joinDate: "01-Jun-2025"
+    joinDate: "01-Dec-2024"
   },
   "JS-2506-0002": {
     name: "Ayush chaudhary",
     status: "Active",
     photo: "member-2.jpg",
-    joinDate: "03-Jun-2025"
+    joinDate: "01-Dec-2024"
   },
   "JS-2506-0003": {
     name: "Anjali Sharma",
     status: "Inactive",
     photo: "https://via.placeholder.com/100",
-    joinDate: "05-Jun-2025"
+    joinDate: "05-Jan-2024"
   }
 };
 
